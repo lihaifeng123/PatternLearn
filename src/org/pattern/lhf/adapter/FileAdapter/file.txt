@@ -1,0 +1,7 @@
+#
+#Sun Oct 28 13:42:50 CST 2018
+work=computer
+day=21
+name=lihaifeng
+year=2004
+month=4

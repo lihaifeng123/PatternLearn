@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="319.0">org.pattern.lhf.iterator.Book</node>
+    <node x="22.5" y="0.0">org.pattern.lhf.iterator.Aggregate</node>
+    <node x="290.5" y="0.0">org.pattern.lhf.iterator.Iterator</node>
+    <node x="257.0" y="126.0">org.pattern.lhf.iterator.BookShelfIterator</node>
+    <node x="0.0" y="103.0">org.pattern.lhf.iterator.BookShelf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.iterator.BookShelf" target="org.pattern.lhf.iterator.Aggregate">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="org.pattern.lhf.iterator.BookShelfIterator" target="org.pattern.lhf.iterator.Iterator">
+      <point x="0.0" y="-73.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="95.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

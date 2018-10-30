@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="191.0" y="0.0">org.pattern.lhf.adapter.extendadapter.Banner</node>
+    <node x="0.0" y="24.0">org.pattern.lhf.adapter.extendadapter.Print</node>
+    <node x="149.0" y="174.0">org.pattern.lhf.adapter.extendadapter.PrintBanner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.adapter.extendadapter.PrintBanner" target="org.pattern.lhf.adapter.extendadapter.Banner">
+      <point x="0.0" y="-50.0" />
+      <point x="-48.5" y="62.0" />
+    </edge>
+    <edge source="org.pattern.lhf.adapter.extendadapter.PrintBanner" target="org.pattern.lhf.adapter.extendadapter.Print">
+      <point x="-60.33333333333334" y="-50.0" />
+      <point x="179.16666666666663" y="149.0" />
+      <point x="85.5" y="149.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

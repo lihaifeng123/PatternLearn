@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="126.0">org.pattern.lhf.adapter.degreadapter.PrintBanner</node>
+    <node x="226.0" y="0.0">org.pattern.lhf.adapter.degreadapter.Banner</node>
+    <node x="5.0" y="0.0">org.pattern.lhf.adapter.degreadapter.Print</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.adapter.degreadapter.PrintBanner" target="org.pattern.lhf.adapter.degreadapter.Print">
+      <point x="0.0" y="-62.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>org.pattern.lhf.adapter.degreadapter.Banner</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
