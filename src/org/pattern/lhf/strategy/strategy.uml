@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="444.0" y="0.0">org.pattern.lhf.strategy.Hand</node>
+    <node x="0.0" y="387.0">org.pattern.lhf.strategy.Player</node>
+    <node x="209.0" y="126.0">org.pattern.lhf.strategy.ProbStrategy</node>
+    <node x="0.0" y="149.0">org.pattern.lhf.strategy.WinningStrategy</node>
+    <node x="107.25" y="0.0">org.pattern.lhf.strategy.Strategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.strategy.WinningStrategy" target="org.pattern.lhf.strategy.Strategy">
+      <point x="0.0" y="-85.0" />
+      <point x="94.5" y="101.0" />
+      <point x="153.25" y="101.0" />
+      <point x="-46.0" y="38.0" />
+    </edge>
+    <edge source="org.pattern.lhf.strategy.ProbStrategy" target="org.pattern.lhf.strategy.Strategy">
+      <point x="0.0" y="-108.0" />
+      <point x="304.0" y="101.0" />
+      <point x="245.25" y="101.0" />
+      <point x="46.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="400.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

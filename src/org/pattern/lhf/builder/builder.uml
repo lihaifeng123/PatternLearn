@@ -3,31 +3,37 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="80.0">org.pattern.lhf.builder.TextBuilder</node>
-    <node x="0.0" y="155.0">org.pattern.lhf.builder.Director</node>
-    <node x="133.0" y="80.0">org.pattern.lhf.builder.HTMLBuilder</node>
-    <node x="81.0" y="0.0">org.pattern.lhf.builder.Builder</node>
+    <node x="0.0" y="172.0">org.pattern.lhf.builder.TextBuilder</node>
+    <node x="0.0" y="387.0">org.pattern.lhf.builder.Director</node>
+    <node x="231.0" y="172.0">org.pattern.lhf.builder.HTMLBuilder</node>
+    <node x="115.5" y="0.0">org.pattern.lhf.builder.Builder</node>
   </nodes>
   <notes />
   <edges>
     <edge source="org.pattern.lhf.builder.TextBuilder" target="org.pattern.lhf.builder.Builder">
-      <point x="0.0" y="-15.0" />
-      <point x="56.5" y="55.0" />
-      <point x="103.25" y="55.0" />
-      <point x="-22.25" y="15.0" />
+      <point x="0.0" y="-85.0" />
+      <point x="105.5" y="147.0" />
+      <point x="168.25" y="147.0" />
+      <point x="-52.75" y="61.0" />
     </edge>
     <edge source="org.pattern.lhf.builder.HTMLBuilder" target="org.pattern.lhf.builder.Builder">
-      <point x="0.0" y="-15.0" />
-      <point x="194.5" y="55.0" />
-      <point x="147.75" y="55.0" />
-      <point x="22.25" y="15.0" />
+      <point x="0.0" y="-85.0" />
+      <point x="336.5" y="147.0" />
+      <point x="273.75" y="147.0" />
+      <point x="52.75" y="61.0" />
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
   <SelectedNodes>
-    <node>org.pattern.lhf.builder.TextBuilder</node>
+    <node>org.pattern.lhf.builder.Director</node>
   </SelectedNodes>
-  <Categories />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>
