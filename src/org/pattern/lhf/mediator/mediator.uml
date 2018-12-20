@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="185.5" y="0.0">org.pattern.lhf.mediator.Colleage</node>
+    <node x="0.0" y="80.0">org.pattern.lhf.mediator.ColleageButton</node>
+    <node x="157.0" y="80.0">org.pattern.lhf.mediator.ColleageCheckbox</node>
+    <node x="7.0" y="155.0">org.pattern.lhf.mediator.Mediator</node>
+    <node x="0.0" y="235.0">org.pattern.lhf.mediator.LoginFrame</node>
+    <node x="333.0" y="80.0">org.pattern.lhf.mediator.ColleageTextField</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.mediator.LoginFrame" target="org.pattern.lhf.mediator.Mediator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.pattern.lhf.mediator.ColleageTextField" target="org.pattern.lhf.mediator.Colleage">
+      <point x="0.0" y="-15.0" />
+      <point x="408.0" y="55.0" />
+      <point x="268.0" y="55.0" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="org.pattern.lhf.mediator.ColleageButton" target="org.pattern.lhf.mediator.Colleage">
+      <point x="0.0" y="-15.0" />
+      <point x="68.5" y="55.0" />
+      <point x="202.0" y="55.0" />
+      <point x="-33.0" y="15.0" />
+    </edge>
+    <edge source="org.pattern.lhf.mediator.ColleageCheckbox" target="org.pattern.lhf.mediator.Colleage">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>org.pattern.lhf.mediator.Mediator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

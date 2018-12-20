@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="121.0" y="160.0">org.pattern.lhf.visitor.File</node>
+    <node x="233.0" y="80.0">org.pattern.lhf.visitor.ListVisitor</node>
+    <node x="242.5" y="0.0">org.pattern.lhf.visitor.Visitor</node>
+    <node x="55.5" y="0.0">org.pattern.lhf.visitor.Element</node>
+    <node x="0.0" y="160.0">org.pattern.lhf.visitor.Directory</node>
+    <node x="64.0" y="80.0">org.pattern.lhf.visitor.Entry</node>
+    <node x="0.0" y="235.0">org.pattern.lhf.visitor.FileTreatementException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.visitor.ListVisitor" target="org.pattern.lhf.visitor.Visitor">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.pattern.lhf.visitor.Entry" target="org.pattern.lhf.visitor.Element">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.pattern.lhf.visitor.File" target="org.pattern.lhf.visitor.Entry">
+      <point x="0.0" y="-15.0" />
+      <point x="154.5" y="135.0" />
+      <point x="121.75" y="135.0" />
+      <point x="19.25" y="15.0" />
+    </edge>
+    <edge source="org.pattern.lhf.visitor.Directory" target="org.pattern.lhf.visitor.Entry">
+      <point x="0.0" y="-15.0" />
+      <point x="50.5" y="135.0" />
+      <point x="83.25" y="135.0" />
+      <point x="-19.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>org.pattern.lhf.visitor.Visitor</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

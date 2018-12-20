@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="276.5">org.pattern.lhf.decorator.FullBorder</node>
+    <node x="122.25" y="0.0">org.pattern.lhf.decorator.Display</node>
+    <node x="235.0" y="276.0">org.pattern.lhf.decorator.SideBorder</node>
+    <node x="142.75" y="173.0">org.pattern.lhf.decorator.Border</node>
+    <node x="0.0" y="445.0">org.pattern.lhf.template.StringDisplay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.decorator.Border" target="org.pattern.lhf.decorator.Display">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="org.pattern.lhf.decorator.SideBorder" target="org.pattern.lhf.decorator.Border">
+      <point x="0.0" y="-62.0" />
+      <point x="333.0" y="251.0" />
+      <point x="259.0" y="251.0" />
+      <point x="38.75" y="26.5" />
+    </edge>
+    <edge source="org.pattern.lhf.decorator.FullBorder" target="org.pattern.lhf.decorator.Border">
+      <point x="0.0" y="-61.5" />
+      <point x="107.5" y="251.0" />
+      <point x="181.5" y="251.0" />
+      <point x="-38.75" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="260.0" />
+  <SelectedNodes>
+    <node>org.pattern.lhf.template.StringDisplay</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

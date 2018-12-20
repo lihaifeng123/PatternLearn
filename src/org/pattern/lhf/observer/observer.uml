@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="24.5" y="155.0">org.pattern.lhf.observer.NumberGenerator</node>
+    <node x="158.0" y="80.0">org.pattern.lhf.observer.DigitObserver</node>
+    <node x="0.0" y="80.0">org.pattern.lhf.observer.GraphObserver</node>
+    <node x="94.75" y="0.0">org.pattern.lhf.observer.Observer</node>
+    <node x="0.0" y="235.0">org.pattern.lhf.observer.RandomNumberGenerator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.observer.GraphObserver" target="org.pattern.lhf.observer.Observer">
+      <point x="0.0" y="-15.0" />
+      <point x="69.0" y="55.0" />
+      <point x="120.25" y="55.0" />
+      <point x="-25.5" y="15.0" />
+    </edge>
+    <edge source="org.pattern.lhf.observer.RandomNumberGenerator" target="org.pattern.lhf.observer.NumberGenerator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.pattern.lhf.observer.DigitObserver" target="org.pattern.lhf.observer.Observer">
+      <point x="0.0" y="-15.0" />
+      <point x="222.5" y="55.0" />
+      <point x="171.25" y="55.0" />
+      <point x="25.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="760.0" y="325.0" />
+  <SelectedNodes>
+    <node>org.pattern.lhf.observer.NumberGenerator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

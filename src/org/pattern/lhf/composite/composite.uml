@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="123.75" y="0.0">org.pattern.lhf.composite.FileTreatementException</node>
+    <node x="158.75" y="126.0">org.pattern.lhf.composite.Entity</node>
+    <node x="0.0" y="368.5">org.pattern.lhf.composite.File</node>
+    <node x="205.0" y="345.0">org.pattern.lhf.composite.Directory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pattern.lhf.composite.Entity" target="org.pattern.lhf.composite.FileTreatementException">
+      <point x="0.0" y="-84.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="org.pattern.lhf.composite.File" target="org.pattern.lhf.composite.Entity">
+      <point x="0.0" y="-62.0" />
+      <point x="92.5" y="320.0" />
+      <point x="189.58333333333334" y="320.0" />
+      <point x="-61.66666666666666" y="84.5" />
+    </edge>
+    <edge source="org.pattern.lhf.composite.Directory" target="org.pattern.lhf.composite.Entity">
+      <point x="46.25" y="-85.5" />
+      <point x="343.75" y="320.0" />
+      <point x="312.91666666666663" y="320.0" />
+      <point x="61.66666666666666" y="84.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>org.pattern.lhf.composite.FileTreatementException</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
